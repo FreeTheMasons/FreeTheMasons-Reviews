@@ -1,0 +1,18 @@
+.push{
+    margin-top: 130px;
+}
+
+.form-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+.map-container{
+    height: 500px;
+    background:#95B7A1;
+    margin: 0 auto;
+    width: 75%;
+    border: 5px groove #95B7A1;
+}

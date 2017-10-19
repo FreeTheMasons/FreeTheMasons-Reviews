@@ -1,0 +1,313 @@
+/*** start nav styles ***/
+
+.logo{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.menu-list{
+    float: right;
+    margin-right: 200px;
+    list-style: none;
+}
+.menuItem{
+    float: left;
+    margin-left:50px;
+}
+.navLink{
+    text-decoration: none;
+    color: #A0303B;
+    font-family: 'Economica', sans-serif;
+    font-size: 20px;
+}
+
+.mainNav{
+    background: #DDBCB9;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 5px 40px #5E5E5E;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+
+.navLink:hover{
+    background-color: #8D8BCD;
+    text-decoration: overline;
+    font-size: 25px;
+}
+
+ 
+
+
+.centerDiv{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+.centerImage{
+    float: right;
+    margin: auto;
+}
+ 
+
+.background{
+    background-image: url('../images/flower.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 1500px;
+    margin-top:104px;
+    
+}
+
+.backgroundText{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 225px;
+    color: #7AB8D2;
+
+}
+.background-txt{
+     background-color: rgba(0, 0, 0, .5);
+}
+/*** column styles ***/
+
+
+.column-container{
+    padding: 15px;
+    left: 0px;
+    right:0px;
+}
+
+.column{
+    width: 21.5%;
+    border: 10px groove #DB5835;
+    height: 700px;
+    background-color: #3E0E02;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+}
+
+.column-container::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.column-image{
+    width: 100%;
+}
+
+.column-header{
+    color: #8D8BCD;
+}
+
+.column-p{
+    color: #D6A530;
+}
+
+/***
+.box{
+    float: left;
+    width: 300px;
+    border: groove 20px;
+    background: #AD4E58;
+    background-repeat: repeat-x;
+    
+}
+
+.fox{
+    height: 300px;
+    width:300px;
+}
+
+.boxHeader{
+    text-align: center;
+}
+***/
+
+
+/*** start footer styles ***/
+
+.mainFooter{
+    border-top: 2px solid #D17F29;
+    height: 150px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+.footerSection{
+    width: 33%;
+    height: 160px;
+    float: left;
+    border-left: 2px solid #D17F29;
+    text-align: center;
+    padding: 15px 0px;
+    background: #22253E;
+}
+
+.diamond-container {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 20px;
+}
+
+.diamond-section {
+  height: 33%;
+  width: 100%;
+}
+
+.diamond-section:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box {
+  height: 30%;
+  width: 33%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+/*** icon styles ***/
+
+.box a .fa-reddit{
+    color: #D57A75;
+    font-size: 30px;
+}
+
+.box a .fa-steam{
+    color: #578DB3;
+    font-size: 30px;
+}
+
+.box a .fa-pied-piper-alt{
+    color:#516E66;
+    font-size: 30px;
+}
+
+.box a .fa-facebook-official{
+    color: #CEADD6;
+    font-size: 30px;
+}
+
+.rights{
+    font-size: 25px;
+    color: #D35C5E;
+    font-family: 'Economica', sans-serif;
+    position:relative;
+    top: 35px;
+}
+
+.contact{
+    font-size: 25px;
+    color: #8D8BCD;
+    font-family: 'Economica', sans-serif;
+    position: relative;
+    top:35px;
+}
+
+
+.about-container{
+    padding: 15px;
+    height: 600px;
+    background-color: #7F0F01;
+    margin-top: 104px;
+    
+}
+
+.bio{
+    width: 50%;
+    float: left;
+
+}
+.selfie{
+    width: 50%;
+    border: 10px groove #95B7A1;
+}
+/***
+.about-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+***/
+
+.bio-header{
+    color: #7C8D81;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+.bio-p{
+    color: #8D8BCD;
+    font-size: 20px;
+    border: 5px groove #95B7A1;
+    padding: 10px;
+    background-color: #22253E;
+    font-family: 'Libre Baskerville', serif;
+    text-indent: 30px
+}
+
+.info-container{
+    height:700px;
+    padding:15px;
+    background:#95B7A1;
+}
+.info-column{
+    width:33%;
+    float:left;
+    border-left:2px solid #D17F29;
+    height:95%;
+}
+
+.info-header{
+    text-align: center;
+    color:#D35C5E;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.info-txt{
+    
+    margin-left:15px;
+    color:#22253E;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
