@@ -1,0 +1,29 @@
+.games-grid{
+    width: 100%;
+    height: 900px;
+    margin-top:104px;
+}
+
+.game-cover{
+    width: 45%;
+    height: 45%;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+.game-link{
+    margin-left: 125px;
+}
+
+.cover{
+    width: 60%;
+    height: 75%;
+
+}
+
+.game-title{
+    margin-top: 15px;
+    text-align: center;
+}
