@@ -24,14 +24,14 @@
 }
 
 .mainNav{
-    background: #DDBCB9;
+    background: #22253E;
     position: fixed;
     width: 100%;
     box-shadow: 0px 5px 40px #5E5E5E;
     top:0px;
     left: 0px;
     right: 0px;
-    
+    z-index: 500000;
 }
 
 
@@ -53,27 +53,79 @@
     float: right;
     margin: auto;
 }
- 
 
-.background{
-    background-image: url('../images/flower.jpg');
-    background-size: cover;
-    background-position: center center;
-    height: 1500px;
-    margin-top:104px;
+/*** Start Home page content ***/ 
+    
+.home-background{
+    width: 100%;
+    height:3000px;
+    background: #02111B;
+    margin-top: 104px;
     
 }
 
-.backgroundText{
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 225px;
-    color: #7AB8D2;
+.home-main{
+    width:768px;
+    height: 800px;
+    background: #EDF7F6;
+    position: relative;
+    left: 320px;
+    margin-top: 104px;
+    top: 100px;
+}
 
+.home-side{
+    width: 25%;
+    height: 20%;
+    background: #EDF7F6;
+    position: relative;
+    left: 1200px;
+    bottom: 2525px;
 }
-.background-txt{
-     background-color: rgba(0, 0, 0, .5);
+
+.main-cover{
+    width:70%;
+    margin-left: 115px;
+    margin-top: 30px;
 }
+
+.main-title{
+    text-align: center;
+    
+}
+
+.content-info{
+    margin-left: 115px;
+    line-height: 5px;
+    font-size: 12px;
+}
+
+.content-text{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+
+.read-more{
+    border:none;
+    padding: 15px 32px;
+    background:#A0303B;
+    position: relative;
+    top: 225px;
+    left: 600px;
+    
+}
+
+.button-link{
+    text-decoration: none;
+    color: #EDF7F6;
+    position: relative;
+    
+}
+
+
+
+
 /*** column styles ***/
 
 
@@ -111,25 +163,6 @@
     color: #D6A530;
 }
 
-/***
-.box{
-    float: left;
-    width: 300px;
-    border: groove 20px;
-    background: #AD4E58;
-    background-repeat: repeat-x;
-    
-}
-
-.fox{
-    height: 300px;
-    width:300px;
-}
-
-.boxHeader{
-    text-align: center;
-}
-***/
 
 
 /*** start footer styles ***/
@@ -214,7 +247,7 @@
     font-size: 30px;
 }
 
-.box a .fa-pied-piper-alt{
+.box a .fa-twitch{
     color:#516E66;
     font-size: 30px;
 }
@@ -258,13 +291,7 @@
     width: 50%;
     border: 10px groove #95B7A1;
 }
-/***
-.about-container:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-***/
+
 
 .bio-header{
     color: #7C8D81;

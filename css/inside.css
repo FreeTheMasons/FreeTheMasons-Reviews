@@ -1,14 +1,43 @@
 .article-container{
-    width:75%;
+    width:100%;
+    height: 3000px;
 }
-.article{
-    margin-top:200px;
-    width: 90%;
-    height: 1000px;
+.content-box{
+    width:100%;
+    background-color: #02111B;
+    height:100%;
+}
 
+.article{
+    width: 50%;
+    height: 100%;
+    margin-top:104px;
+    background: #EDF7F6;
+    position:relative;
+    left:400px;
+    z-index: 1;
     
 }
 
 .article-title{
     text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.review-body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:80px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 28px;
+    font-size: 14px;
+    clear:both;
+}
+
+.game-image{
+    width: 80%;
+    height:15%;
+    margin-left: 100px;
 }
