@@ -204,44 +204,6 @@
     transition: all .3s;
 }
 
-/*** column styles ***/
-
-
-.column-container{
-    padding: 15px;
-    left: 0px;
-    right:0px;
-}
-
-.column{
-    width: 21.5%;
-    border: 10px groove #DB5835;
-    height: 700px;
-    background-color: #3E0E02;
-    text-align: center;
-    float: left;
-    margin-left: 2%;
-}
-
-.column-container::after{
-    content:"";
-    display: block;
-    clear: both;
-}
-
-.column-image{
-    width: 100%;
-}
-
-.column-header{
-    color: #8D8BCD;
-}
-
-.column-p{
-    color: #D6A530;
-}
-
-
 
 /*** start footer styles ***/
 
@@ -351,6 +313,8 @@
     top:35px;
 }
 
+
+/*** Begin About page styles ***/
 
 .about-container{
     padding: 15px;
