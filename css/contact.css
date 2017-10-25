@@ -1,8 +1,20 @@
 .push{
-    margin-top: 130px;
+    margin-top: 104px;
+    background-color: #EDF7F6;
 }
 .contact-page{
-        background-color:#95B7A1;
+    background-color:#02111B;
+    height: 100%;
+    width: 100%;
+    z-index:9;
+}
+
+.contact-content{
+    width: 80%;
+    background-color: #EDF7F6;
+    z-index:10;
+    position: relative;
+    left: 225px;
 }
 
 .form-container{
@@ -15,7 +27,7 @@
 
 .map-container{
     height: 500px;
-    background:#95B7A1;
+    background:#EDF7F6;
     margin: 0 auto;
     width: 75%;
     border: 5px groove #95B7A1;

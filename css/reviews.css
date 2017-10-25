@@ -1,5 +1,5 @@
 .review-backgrounds{
-    height: 1600px;
+    height: 1200px;
     width:100%;
     background-color: #02111B;
 
@@ -78,4 +78,14 @@
     content:"";
     display: block;
     clear: both;
+}
+
+.article-links{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 2px rgb(219, 218, 218);
+}
+
+.article-links:hover{
+    border-bottom: solid 2px rgb(223, 118, 118);
 }
